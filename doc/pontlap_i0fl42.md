@@ -1,5 +1,5 @@
+# Pixel Art Editor Dokumentáció
 Név: Németh István Ákos
-
 Neptun: I0FL42
 
 ## Projekt rövid leírása:
@@ -18,7 +18,9 @@ Ez egy Pixel Art Editor alkalmazás akart lenni, ami animált pixel art gifek k�
 - 2p: Az adatbázis Azure SQL szerveren fut
 - 1p: Az adatbázis struktúra a pixel art szerkesztéshez szükséges alapvető elemeket tartalmazza, előre feltöltött alap színpalettával
 
-## Windows Forms (19p)
+Részösszeg: 7p
+
+## Windows Forms (17p)
 
 ### UserControl-ok használata (6p)
 ![Editor Control](./images/editor.gif)
@@ -41,6 +43,8 @@ Ez egy Pixel Art Editor alkalmazás akart lenni, ami animált pixel art gifek k�
 - Színhasználati statisztikák és projekt adatok exportálása
 - A színek előnézete az Excel cellákban is megjelenik
 
+Részösszeg: 17p
+
 ## Egyéb, extra (7p)
 
 ### Scaffold-DbContext használata (2p)
@@ -48,6 +52,8 @@ Ez egy Pixel Art Editor alkalmazás akart lenni, ami animált pixel art gifek k�
 
 ### Színhasználati diagram (5p)
 - Oszlopdiagram mutatja a különböző színek használati gyakoriságát
+
+Részösszeg: 7p
 
 ## API Végpontok (21p)
 ![Swagger UI](./images/swagger.png)
@@ -76,4 +82,6 @@ Ez egy Pixel Art Editor alkalmazás akart lenni, ami animált pixel art gifek k�
 - Frame törlése a hozzá tartozó pixelekkel együtt
 - Referenciális integritás kezelése
 
-## Összesen: 54 pont
+Részösszeg: 21p
+
+## Összesen: 52 pont
